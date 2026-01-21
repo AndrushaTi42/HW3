@@ -82,7 +82,7 @@ public class Main {
         System.out.println("В школе, где " + classroom + " классов, нужно " + whiteJar + " банок белой краски и " + brownJar + " банок коричневой краски.");
 
 
-        System.out.println("HW 6:");
+        System.out.println("HW 6: ");
 
         byte banana = 80;
         byte milk = 105;
