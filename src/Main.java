@@ -40,11 +40,11 @@ public class Main {
 
         System.out.println("HW 3:");
 
-        byte studentsL = 23;
-        byte studentsA = 27;
-        byte studentsE = 30;
+        byte studentsLudmila = 23;
+        byte studentsAnna = 27;
+        byte studentsEkaterina = 30;
         short sheet = 480;
-        int studentSheets = sheet / (studentsL + studentsA + studentsE);
+        int studentSheets = sheet / (studentsLudmila + studentsAnna + studentsEkaterina);
         System.out.println("На каждого ученика рассчитано " + studentSheets + " листов бумаги;");
 
 
@@ -96,14 +96,14 @@ public class Main {
 
         System.out.println("HW 7:");
 
-        byte targetWeightGr = 7;
+        byte targetWeightKg = 7;
         short kgPerGr = 1000;
-        short targetWeightKg = (short) (targetWeightGr * kgPerGr);
+        short targetWeightGr = (short) (targetWeightKg * kgPerGr);
         short weightMax = 500;
         short weightMin = 250;
-        byte dayMin = (byte) (targetWeightKg / weightMax);
-        byte dayMax = (byte) (targetWeightKg / weightMin);
-        byte dayAverage = (byte) (((dayMax - dayMin) / 2) + dayMin);
+        byte dayMin = (byte) (targetWeightGr / weightMax);
+        byte dayMax = (byte) (targetWeightGr / weightMin);
+        byte dayAverage = (byte) ((dayMax + dayMin) / 2) ;
         System.out.println("Max day: " + dayMax + "; Min day: " + dayMin + "; Average day: " + dayAverage + ";");
 
         System.out.println("HW 8:");
